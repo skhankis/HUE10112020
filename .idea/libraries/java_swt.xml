@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="java swt">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../java swt" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../java swt" recursive="false" />
+  </library>
+</component>
