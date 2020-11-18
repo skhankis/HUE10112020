@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Status">
+    <children>
+        <MenuButton layoutX="14.0" layoutY="46.0" mnemonicParsing="false" text="Aufträge">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Auftrag1" />
+                <MenuItem mnemonicParsing="false" text="Auftrag2" />
+            </items>
+        </MenuButton>
+        <MenuButton layoutX="14.0" layoutY="82.0" mnemonicParsing="false" text="Offen">
+            <items>
+                <MenuItem mnemonicParsing="false" text="Pending" />
+                <MenuItem mnemonicParsing="false" text="Geschlossen" />
+            </items>
+        </MenuButton>
+        <Button fx:id="PrioSend" layoutX="14.0" layoutY="118.0" mnemonicParsing="false" onAction="#prioClicked" text="Senden" />
+        <Label layoutX="14.0" layoutY="14.0" prefHeight="18.0" prefWidth="135.0" text="Auftrag Auswählen" />
+    </children>
+</AnchorPane>
