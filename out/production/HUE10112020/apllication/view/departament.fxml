@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="149.0" prefWidth="489.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apllication.controller.Departament">
+   <children>
+      <Button fx:id="AbteilungButton" layoutX="411.0" layoutY="109.0" mnemonicParsing="false" onAction="#AbteilungButtonClicked" text="Speichern" AnchorPane.bottomAnchor="14.399999999999999" AnchorPane.rightAnchor="9.200000000000003" />
+      <TextArea layoutX="70.0" layoutY="3.0" prefHeight="38.0" prefWidth="412.0" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="3.0" />
+      <Label layoutX="14.0" layoutY="14.0" text="Abteilung" />
+      <Button layoutX="330.0" layoutY="109.0" mnemonicParsing="false" text="Abbrechen" AnchorPane.bottomAnchor="14.400000000000006" AnchorPane.rightAnchor="84.60000000000002" />
+   </children>
+</AnchorPane>
