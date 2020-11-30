@@ -10,13 +10,16 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        MyFXMLLoader.setPrimaryStage(primaryStage);
+        application.MyFXMLLoader.setPrimaryStage(primaryStage);
 
-        MyFXMLLoader loader = new MyFMXLLoader();
+        application.MyFXMLLoader loader = new MyFMXLLoader();
         loader.loadFXML("view/scene.fxml", "Ticketsystem");
     }
 
     public static void main(String[] args) {
         launch(args);
+    }
+
+    private class MyFMXLLoader extends application.MyFXMLLoader {
     }
 }
