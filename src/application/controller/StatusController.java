@@ -96,7 +96,6 @@ public class StatusController {
 
             for (Status a : list) {
                 bw.write(a.newCSVLine());
-
             }
             bw.flush();
             bw.close();
